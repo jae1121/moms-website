@@ -40,6 +40,9 @@
     font-weight: 600;
     padding: 0.5rem 1.5rem;
     border-radius: 0.3125rem; 
+    background-color: #d8e2ee;
+    color: #495867;
+    border: none;
 }
 
 /* Search icon */
@@ -191,8 +194,8 @@
 }
 
 .about-button {
-    background-color: #88aeff;
-    color: #374151;
+    background-color: #d8e2ee;
+    color: #495867;
     font-weight: 600;
     padding: 0.7rem 1.5rem;
     border-radius: 0.25rem;
@@ -244,13 +247,13 @@
 }
 
 .card .btn {
-    background-color: #d9dbe1;
-    color: #374151;
+    background-color: #d8e2ee;
+    color: #495867;
     font-weight: 600;
     padding: 0.7rem 1.5rem;
-    border-radius: 0.25rem;
     text-decoration: none;
     transition: all 0.3s ease;
+    border: none;
 }
 
 .card .btn:hover {
@@ -299,8 +302,8 @@
 }
 
 .read-more-btn {
-    background-color: #a3b7d1;
-    color: #fff;
+    background-color: #d8e2ee;
+    color: #495867;
     padding: 0.5rem 1rem;
     font-size: 0.875rem;
     font-weight: 500;
@@ -312,7 +315,7 @@
 }
 
 .read-more-btn:hover {
-    background-color: #0056b3;
+    background-color: #d8e2ee;
 }
 
 .blog-section .section-title {
@@ -324,7 +327,7 @@
 .blog-section .see-all-link {
     font-size: 1rem;
     font-weight: bold;
-    color: #a3b7d1;
+    color: #d8e2ee;
     text-decoration: none;
 }
 
@@ -349,7 +352,7 @@
 }
 
 .footer-section {
-    background-color: #a3b7d1;
+    background-color: #d8e2ee;
     padding: 1.25rem 1rem; 
 }
 
