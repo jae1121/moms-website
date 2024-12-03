@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMS Group - Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/MOMS logos- Black.png" alt="MOMS Logo" class="logo-img">
+            </a>
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Community
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="communityDropdown">
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="forum.html">Forum</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="resources.html">Articles</a></li>
+                            <li><a class="dropdown-item" href="resources.html">By State</a></li>
+                            <li><a class="dropdown-item" href="resources.html">FAQs</a></li>
+                            <li><a class="dropdown-item" href="resources.html">Advisors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="legacy.html">Legacy Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <!-- Donate button and search -->
+                <div class="d-flex ms-auto align-items-center">
+                    <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
+                    <button class="btn btn-light p-0 ms-3">
+                        <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-content text-white">
+                <h1 class="hero-title">Resources</h1>
+            </div>
+            <img src="images/hero_2.png" alt="Hero Image" class="hero-bg img-fluid">
+        </header>
+        
+        <!-- Resource Tabs -->
+        <div id="resourceTabs" class="container py-4">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-articles-tab" data-bs-toggle="pill" data-bs-target="#pills-articles" type="button" role="tab" aria-controls="pills-articles" aria-selected="false">Articles</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-location-tab" data-bs-toggle="pill" data-bs-target="#pills-location" type="button" role="tab" aria-controls="pills-location" aria-selected="true">By State</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-faq-tab" data-bs-toggle="pill" data-bs-target="#pills-faq" type="button" role="tab" aria-controls="pills-faq" aria-selected="false">FAQs</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-advisor-tab" data-bs-toggle="pill" data-bs-target="#pills-advisor" type="button" role="tab" aria-controls="pills-advisor" aria-selected="false">Advisors</button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Articles Tab -->
+                <div class="tab-pane fade" id="pills-articles" role="tabpanel" aria-labelledby="pills-articles-tab">Articles</div>
+
+                <!-- Location Tab -->
+                <div class="tab-pane fade show active" id="pills-location" role="tabpanel" aria-labelledby="pills-location-tab">
+                    <section class="resource-section py-4">
+                        <h3>Resources</h3>
+                        <p>Select your state to browse the resources available to you.</p>
+                        <br>
+                        
+                        <!-- Search by State -->
+                        <h4>State</h4>
+                        <form>
+                            <select id="state" name="state" class="form-select">
+                                <option value="">Select your State</option>
+                            </select>
+                        </form>
+                    </section>
+
+                    <section class="main-resource-section py-4">
+                        <div class="row">
+                            <!-- Jumpto Menu -->
+                            <div class="col-lg-3 col-md-4 mb-4">
+                                <div class="filter-menu p-3 border rounded bg-light">
+                                    <h5 class="filter-title mb-3">Jump To</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#counseling">Counseling & Mental Health</a></li>
+                                        <li><a href="#drug">Drug & Alcohol Support</a></li>
+                                        <li><a href="#employment">Employment Assistance</a></li>
+                                        <li><a href="#food">Food Assistance</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Cards Section -->
+                            <div class="col-lg-9 col-md-8">
+        
+                                <div id="counseling" class="pb-4">
+                                    <h4>Counseling & Mental Health</h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Anchorpoint Counseling Ministry</a>
+                                                    </h5>
+                                                    <p class="card-text">Accept most insurances, provides counseling for a plethora of issues. Located on 800 McKnight Park Dr. Suite 802, Pittsburgh, PA, 15237.</p>
+                                                    <h5 class="card-number pt-4">412-366-1300</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Counseling & Wellness Center of Pittsburgh</a>
+                                                    </h5>
+                                                    <p class="card-text">Provides a variety of low-cost counseling and psychiatric services. Accept most insurances. Located on 830 Western Ave, Pittsburgh, PA, 15233.</p>
+                                                    <h5 class="card-number pt-4">412-856-WELL</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Family Resources</a>
+                                                    </h5>
+                                                    <p class="card-text">Provides counseling to families with children 8-21 years old who are experiencing conflict. Located on 1425 Forbes Ave, Pittsburgh, PA, 15219.</p>
+                                                    <h5 class="card-number pt-4">412-363-1702</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="drug" class="pb-4">
+                                    <h4>Drug & Alcohol Support</h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Alcoholics Anonymous</a>
+                                                    </h5>
+                                                    <p class="card-text">24-hour answering services and support groups that meet regularly and at various times and location. Call for meeting information.</p>
+                                                    <h5 class="card-number pt-4">412-471-7472</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Narcotics Anonymous</a>
+                                                    </h5>
+                                                    <p class="card-text">Support groups meet regularly at various locations and time. Call to attend a meeting.</p>
+                                                    <h5 class="card-number pt-4">412-397-5247</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Gateway Rehabilitation</a>
+                                                    </h5>
+                                                    <p class="card-text">Provides detox, inpatient and outpatient care as well as other supporting programs. Located on 426 George St, Braddock, PA 15104.</p>
+                                                    <h5 class="card-number pt-4">800-472-1177</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="employment" class="pb-4">
+                                    <h4>Employment Assistance</h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Career Link - Downtown Pittsburgh</a>
+                                                    </h5>
+                                                    <p class="card-text">Provides job training and employment services. Located on 118 52nd St, Pittsburgh, PA, 15201.</p>
+                                                    <p class="card-text">412-632-1941</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">WorkAble</a>
+                                                    </h5>
+                                                    <p class="card-text">Helps with immediate needs and barriers to employment. Must be 300% below poverty guideline.</p>
+                                                    <p class="card-text">412-904-5993</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="food" class="pb-4">
+                                    <h4>Food Assistance</h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">East End Cooperative Ministry</a>
+                                                    </h5>
+                                                    <p class="card-text">Community Kitchen serves lunch every Monday through Friday 12:15-1:15pm. Located on 6140 Penn Circle North. Also has food bank and help with social services. Need to bring ID, SS# documents. Open 9:30-11:30am & 6:30-8:30pm M-F.</p>
+                                                    <p class="card-text">412-345-7149</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Just Harvest</a>
+                                                    </h5>
+                                                    <p class="card-text">Apply for food stamps, getting food for kids and filling taxes.</p>
+                                                    <p class="card-text">412-431-8960</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">Greater Pittsburgh Community Food Bank</a>
+                                                    </h5>
+                                                    <p class="card-text">Must be 150% of federal poverty guideline, receive government assistance and experiencing a food emergency. Register on site and receive box of food where 3 out of 4 food items are fresh produce. Locations listed on website.</p>
+                                                    <p class="card-text">412-460-3663</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <a href="#">North Hills Food Bank</a>
+                                                    </h5>
+                                                    <p class="card-text">In the rear parking lot of Hiland Presbyterian Church in Ross.</p>
+                                                    <p class="card-text">412-366-7477</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- FAQs Tab -->
+                <div class="tab-pane fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">FAQs</div>
+                <!-- Advisors Tab -->
+                <div class="tab-pane fade" id="pills-advisor" role="tabpanel" aria-labelledby="pills-advisor-tab">Advisors</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <p class="footer-text mb-1">Reach Us At</p>
+            <p class="footer-text mb-1">412-219-7157</p>
+            <p class="footer-text mb-1">Momsgroup2020@gmail.com</p>
+            <p class="footer-text">500 Thompson Ave, Clairton, PA 15025</p>
+        </div>
+    </footer>
+
+    <script src="js/stateSelector.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

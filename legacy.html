@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMS Group - Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/MOMS logos- Black.png" alt="MOMS Logo" class="logo-img">
+            </a>
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Community
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="communityDropdown">
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="forum.html">Forum</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="resources.html">Articles</a></li>
+                            <li><a class="dropdown-item" href="resources.html">By State</a></li>
+                            <li><a class="dropdown-item" href="resources.html">FAQs</a></li>
+                            <li><a class="dropdown-item" href="resources.html">Advisors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="legacy.html">Legacy Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <!-- Donate button and search -->
+                <div class="d-flex ms-auto align-items-center">
+                    <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
+                    <button class="btn btn-light p-0 ms-3">
+                        <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-content text-white">
+                <h1 class="hero-title">Legacy Pages</h1>
+            </div>
+            <img src="images/hero_2.png" alt="Hero Image" class="hero-bg img-fluid">
+        </header>
+
+        <section class="legacy-section container py-4">
+            <div class="row">
+                <div class="col-lg-10 col-sm-12">
+                    <p>Share and explore the stories of lost loved ones. Keep their memory alive through a legacy project, dedicated to giving back to the community.</p>
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <button class="btn btn-primary ms-lg-3 mt-2 mt-lg-0">+ Create Post</button>
+                </div>
+            </div>
+
+            <div class="row mt-4 pb-5">
+                <div class="col-lg-8 col-md-12">
+                    <h5>Search for Name</h5>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5>State</h5>
+                    <form>
+                        <select id="state" name="state" class="form-select">
+                            <option value="">Select your State</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+
+            <div class="main-legacy-section">
+                <!-- Legacy Card 1-->
+                <div class="card shadow-sm p-3 mb-4 rounded">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <!-- Image -->
+                        <div class="col-lg-4 col-12 mb-3 mb-lg-0">
+                            <img src="images/placeholder_head.png" alt="Legacy Image" class="img-fluid rounded shadow-sm">
+                        </div>
+            
+                        <!-- Text  -->
+                        <div class="col-lg-8 col-12">
+                            <!-- Title -->
+                            <h5 class="card-title">First Last Name</h5>
+                            <!-- Date -->
+                            <h6 class="card-subtitle mb-3 text-muted">1994-2017</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            
+                            <h6 class="pt-5">Legacy Project</h6>
+                            <p>
+                                <a href="#">Turkey Donations</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legacy Card 2-->
+                <div class="card shadow-sm p-3 mb-4 rounded">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <!-- Image -->
+                        <div class="col-lg-4 col-12 mb-3 mb-lg-0">
+                            <img src="images/placeholder_head.png" alt="Legacy Image" class="img-fluid rounded shadow-sm">
+                        </div>
+            
+                        <!-- Text  -->
+                        <div class="col-lg-8 col-12">
+                            <!-- Title -->
+                            <h5 class="card-title">First Last Name</h5>
+                            <!-- Date -->
+                            <h6 class="card-subtitle mb-3 text-muted">1994-2017</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            
+                            <h6 class="pt-5">Legacy Project</h6>
+                            <p>
+                                <a href="#">Turkey Donations</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legacy Card 3-->
+                <div class="card shadow-sm p-3 mb-4 rounded">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <!-- Image -->
+                        <div class="col-lg-4 col-12 mb-3 mb-lg-0">
+                            <img src="images/placeholder_head.png" alt="Legacy Image" class="img-fluid rounded shadow-sm">
+                        </div>
+            
+                        <!-- Text  -->
+                        <div class="col-lg-8 col-12">
+                            <!-- Title -->
+                            <h5 class="card-title">First Last Name</h5>
+                            <!-- Date -->
+                            <h6 class="card-subtitle mb-3 text-muted">1994-2017</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            
+                            <h6 class="pt-5">Legacy Project</h6>
+                            <p>
+                                <a href="#">Turkey Donations</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+                    
+        </section>
+        
+
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <p class="footer-text mb-1">Reach Us At</p>
+            <p class="footer-text mb-1">412-219-7157</p>
+            <p class="footer-text mb-1">Momsgroup2020@gmail.com</p>
+            <p class="footer-text">500 Thompson Ave, Clairton, PA 15025</p>
+        </div>
+    </footer>
+
+    <script src="js/stateSelector.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
