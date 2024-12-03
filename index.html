@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mothers of Murdered Sons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Rethink+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,13 +26,14 @@
             <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto gap-5 px-5"> 
+                    <!-- Dropdown menus for navigation -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Community
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="communityDropdown">
-                            <li><a class="dropdown-item" href="#">Events</a></li>
-                            <li><a class="dropdown-item" href="#">Support Groups</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="forum.html">Forum</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -36,8 +41,10 @@
                             Resources
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                            <li><a class="dropdown-item" href="#">Counseling</a></li>
-                            <li><a class="dropdown-item" href="#">Financial Assistance</a></li>
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">By State</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li>
+                            <li><a class="dropdown-item" href="#">Advisors</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -47,7 +54,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
-                <!-- Actions: Donate & Search -->
+                <!-- Donate button and search -->
                 <div class="d-flex align-items-center ms-5 gap-5"> 
                     <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
                     <button class="btn btn-light p-0">
@@ -62,18 +69,24 @@
 <header class="hero">
   <div class="hero-content text-white">
       <p class="hero-subtitle">Mothers Of Murdered Sons Group</p>
-      <h1 class="hero-title">"From Tragedy <br> to Triumph"</h1>
+      <h1 class="hero-title">
+        "From Tragedy to <span class="hero-emphasis">Triumph</span>"
+    </h1>
+    
   </div>
   <img src="images/hero-image.png" alt="Hero Image" class="hero-bg">
 </header>
 
 
+<!-- About Us Section -->
 <section class="about-us">
     <div class="container d-flex align-items-center justify-content-between">
+        <!-- About Us Image -->
         <div class="about-image position-relative">
             <div class="shadow-image"></div>
             <img src="Images/hugging_image.png" alt="Hugging Image" class="main-image">
         </div>
+        <!-- About Us Text -->
         <div class="about-text">
             <h2 class="about-heading">
                 A safe place for women that have experienced tragic loss of a loved one to murder.
@@ -86,11 +99,12 @@
     </div>
 </section>
 
-
+<!-- Resources Section -->
 <section class="resources-section">
     <div class="resources-bg">
         <div class="container py-5">
             <div class="row g-4">
+                <!-- Cards for resources -->
                 <div class="col-md-4">
                     <div class="card h-100 text-center shadow">
                         <div class="card-body">
@@ -129,12 +143,16 @@
     </div>
 </section>
 
+
+ <!-- Blog Section -->
 <section class="blog-section py-5">
     <div class="container">
+         <!-- Blog header -->
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="section-title">From M.O.M.S. Blog</h2>
             <a href="blog.html" class="see-all-link">See All &gt;</a>
         </div>
+        <!-- Blog posts -->
         <div class="blog-container">
             <!-- Blog Post 1 -->
             <div class="blog-entry">
@@ -178,7 +196,7 @@
 
 
 
-
+<!-- Footer Section -->
 <footer class="footer-section">
     <div class="container">
         <p class="footer-text mb-1">Reach Us At</p>

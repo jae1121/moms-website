@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mothers of Murdered Sons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="forum_styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand me-5 pe-5" href="index.html"> 
+                <img src="Images/MOMS logos- Black.png" alt="MOMS Logo" class="logo-img">
+            </a>
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto gap-5 px-5"> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Community
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="communityDropdown">
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Forum</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">By State</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li>
+                            <li><a class="dropdown-item" href="#">Advisors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Legacy Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <!-- Actions: Donate & Search -->
+                <div class="d-flex align-items-center ms-5 gap-5"> 
+                    <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
+                    <button class="btn btn-light p-0">
+                        <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="discussion-section py-4">
+        <div class="container">
+            <!-- Title and Search -->
+            <div class="row align-items-center mb-4">
+                <div class="col-lg-3 col-md-12 text-lg-start text-center mb-3 mb-lg-0">
+                    <h2 class="section-title">MOMS Forum</h2>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search Discussions" aria-label="Search Discussions">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 text-lg-end text-center mt-3 mt-md-0">
+                    <select class="form-select w-auto d-inline-block">
+                        <option value="newest" selected>Newest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="most_liked">Most Liked</option>
+                    </select>
+                    <button class="btn btn-primary ms-lg-3 mt-2 mt-lg-0">+ Create Post</button>
+                </div>
+            </div>      
+        </div>
+    </section>
+
+   
+    <section class="main-discussion-section py-4">
+        <div class="container">
+            <!-- Filter Menu and Discussions -->
+            <div class="row">
+                <!-- Filter Menu -->
+                <div class="col-lg-3 col-md-4 mb-4 mb-lg-0">
+                    <div class="filter-menu p-3 border rounded bg-light">
+                        <h5 class="filter-title mb-3">Filter by</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="filter-link active">All</a></li>
+                            <li><a href="#" class="filter-link">Affirmations</a></li>
+                            <li><a href="#" class="filter-link">Questions</a></li>
+                            <li><a href="#" class="filter-link">Remembrance</a></li>
+                            <li><a href="#" class="filter-link">Events</a></li>
+                            <li><a href="#" class="filter-link">Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Cards Section -->
+                <div class="col-lg-9 col-md-8">
+                    <!-- Card 1 -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                             <!-- Timestamp -->
+                            <span class="position-absolute top-0 end-0 text-muted p-2" style="font-size: 0.85rem;">20 minutes ago</span>
+                            <h6 class="card-subtitle mb-2 text-muted">Anonymous Poster</h6>
+                            <h5 class="card-title">Good Morning</h5>
+                            <span class="badge bg-secondary">Affirmation</span>
+                            <p class="card-text mt-2">
+                                These really helped me feel better yesterday. Hoping these can help someone else out and let me know what you all think of them!
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <img src="images/forum_post1_1.png" alt="Image 1" class="img-fluid rounded">
+                                </div>
+                                <div class="col-4">
+                                    <img src="images/forum_post1_2.png" alt="Image 2" class="img-fluid rounded">
+                                </div>
+                                <div class="col-4">
+                                    <img src="images/forum_post1_3.png" alt="Image 3" class="img-fluid rounded">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                             <!-- Timestamp -->
+                             <span class="position-absolute top-0 end-0 text-muted p-2" style="font-size: 0.85rem;">20 minutes ago</span>
+                            <h6 class="card-subtitle mb-2 text-muted">Anonymous Poster</h6>
+                            <h5 class="card-title">MOMS giving back!</h5>
+                            <span class="badge bg-secondary">Remembrance</span>
+                            <p class="card-text mt-2">
+                                The MOMS Group donated Breast Cancer Awareness Socks to the Clairton Baby Twerps in Honor of our Sons.
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <img src="images/forum_post2.png" alt="Image 1" class="img-fluid rounded">
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                             <!-- Timestamp -->
+                             <span class="position-absolute top-0 end-0 text-muted p-2" style="font-size: 0.85rem;">20 minutes ago</span>
+                            <h6 class="card-subtitle mb-2 text-muted">Anonymous Poster</h6>
+                            <h5 class="card-title">Love this one!</h5>
+                            <span class="badge bg-secondary">Affirmation</span>
+                            <p class="card-text mt-2">
+                                "God, thank you for changing my heart with your love."
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <img src="images/forum_post3.png" alt="Image 1" class="img-fluid rounded">
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 4 -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                             <!-- Timestamp -->
+                             <span class="position-absolute top-0 end-0 text-muted p-2" style="font-size: 0.85rem;">20 minutes ago</span>
+                            <h6 class="card-subtitle mb-2 text-muted">Anonymous Poster</h6>
+                            <h5 class="card-title">Love this one!</h5>
+                            <span class="badge bg-secondary">Affirmation</span>
+                            <p class="card-text mt-2">
+                                "God, thank you for changing my heart with your love."
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <img src="images/forum_post4.png" alt="Image 1" class="img-fluid rounded">
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                                <div class="col-4">
+                                    <!-- Placeholder for additional images -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer-section">
+    <div class="container">
+        <p class="footer-text mb-1">Reach Us At</p>
+        <p class="footer-text mb-1">412-219-7157</p>
+        <p class="footer-text mb-1">Momsgroup2020@gmail.com</p>
+        <p class="footer-text">500 Thompson Ave, Clairton, PA 15025</p>
+    </div>
+</footer>
+
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

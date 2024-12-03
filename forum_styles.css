@@ -1,0 +1,226 @@
+/* Navbar logo */
+.logo-img {
+    max-height: 3.125rem; 
+}
+
+/* Dropdown triangle */
+.dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -0.5rem; 
+    left: 1.25rem; 
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent; 
+    border-right: 0.5rem solid transparent; 
+    border-bottom: 0.5rem solid #fff; 
+    z-index: 1;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    border: 0.0625rem solid #ddd; 
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem 0;
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333;
+    padding: 0.5rem 2rem;
+}
+
+.navbar-nav {
+    gap: 9rem;
+}
+
+/* Donate button */
+.donate-button {
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3125rem; 
+    background-color: #d8e2ee;
+    color: #495867;
+    border: none;
+}
+
+/* Search icon */
+.search-icon {
+    height: 1.5rem; 
+    width: 1.5rem; 
+    object-fit: contain;
+}
+
+/* Search bar */
+.input-group input {
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    height: 2.5rem; 
+}
+
+.input-group button {
+    border-radius: 0 5px 5px 0;
+    padding: 0; 
+    height: 2.5rem; 
+    width: 2.5rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Section styling */
+.discussion-section {
+    background-color: #f9f9f9;
+}
+
+.btn-primary{
+    background-color: #d8e2ee;
+    color: #495867;
+    border: none;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1d1d1d;
+}
+
+/* Filter Menu */
+.filter-menu {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.filter-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.filter-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: #4b4b4b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.filter-link:hover,
+.filter-link.active {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Select dropdown */
+.form-select {
+    font-size: 1rem;
+    color: #4b4b4b;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Title and subtitle */
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #4b4b4b;
+    line-height: 1.6;
+}
+
+/* Badge styling */
+.badge {
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #d8e2ee !important;
+    color: #495867 !important;
+}
+
+
+/* Image styling */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Multi-image row styling */
+.row img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) { 
+    .section-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .form-select {
+        width: 100%; /* Dropdown spans full width */
+        margin-bottom: 1rem;
+    }
+    .btn-primary {
+        width: 100%; /* Button spans full width */
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-menu {
+        text-align: center; /* Center the filter menu */
+    }
+    .filter-link {
+        padding: 0.3rem 0;
+    }
+    .input-group {
+        flex-wrap: wrap; /* Stack input and button on smaller screens */
+    }
+    .input-group input {
+        border-radius: 5px; /* Round edges when stacked */
+    }
+    .input-group button {
+        margin-top: 0.5rem; 
+        width: 100%; 
+    }
+}
+
+/* Footer styling */
+.footer-section {
+    background-color: #d8e2ee;
+    padding: 1.25rem 1rem; 
+}
+
+.footer-text {
+    color: #000;
+    font-size: 1rem; 
+    margin: 0;
+    text-align: left;
+}
+
+.footer-section .container {
+    max-width: 100%; 
+    margin: 0;
+    padding: 0;
+}

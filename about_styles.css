@@ -55,9 +55,6 @@
     margin-right: 9rem;
 }
 
-.nav-actions {
-    margin-left: 9rem;
-}
 
 /* Hero Section */
 .hero {
@@ -143,6 +140,8 @@
         font-size: 0.8rem;
     }
 }
+
+
 
 .about-section {
     padding: 4rem 0;
