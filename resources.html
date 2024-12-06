@@ -8,56 +8,59 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="Images/MOMS logos- Black.png" alt="MOMS Logo" class="logo-img">
-            </a>
-            <!-- Navbar Toggler for Mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Community
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="communityDropdown">
-                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                            <li><a class="dropdown-item" href="forum.html">Forum</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Resources
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                            <li><a class="dropdown-item" href="resources.html">Articles</a></li>
-                            <li><a class="dropdown-item" href="resources.html">By State</a></li>
-                            <li><a class="dropdown-item" href="resources.html">FAQs</a></li>
-                            <li><a class="dropdown-item" href="resources.html">Advisors</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="legacy.html">Legacy Pages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                </ul>
-                <!-- Donate button and search -->
-                <div class="d-flex ms-auto align-items-center">
-                    <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
-                    <button class="btn btn-light p-0 ms-3">
-                        <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
-                    </button>
-                </div>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand me-5 pe-5" href="index.html"> 
+            <img src="Images/MOMS logos- Black.png" alt="MOMS Logo" class="logo-img">
+        </a>
+        <!-- Navbar Toggler for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto gap-5 px-5"> 
+                <!-- Dropdown menus for navigation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Community
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="communityDropdown">
+                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="forum.html">Forum</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                        <li><a class="dropdown-item" href="resources.html">Articles</a></li>
+                        <li><a class="dropdown-item" href="resources.html">By State</a></li>
+                        <li><a class="dropdown-item" href="resources.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="resources.html">Advisors</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="legacy.html">Legacy Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+            <!-- Donate button and search -->
+            <div class="d-flex align-items-center ms-5 gap-5"> 
+                <a href="#" class="btn btn-primary donate-button px-4">Donate</a>
+                <button class="btn btn-light p-0">
+                    <img src="images/search-interface-symbol.png" alt="Search" class="search-icon">
+                </button>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <main>
         <header class="hero">
@@ -92,7 +95,7 @@
                 <!-- Location Tab -->
                 <div class="tab-pane fade show active" id="pills-location" role="tabpanel" aria-labelledby="pills-location-tab">
                     <section class="resource-section py-4">
-                        <h3>Resources</h3>
+                        <h3 class="resources_title">Resources</h3>
                         <p>Select your state to browse the resources available to you.</p>
                         <br>
                         

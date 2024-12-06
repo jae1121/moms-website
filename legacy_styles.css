@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: "Rethink Sans", sans-serif;
+    line-height: 1.6;
+    color: #495867;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333333;
+    padding: 0.5rem 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8fadf4;
+}
+
+.donate-button {
+    font-weight: 600;
+    background-color: #d8e2ee;
+    color: #495867;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3125rem;
+    border: none;
+}
+
+.donate-button:hover {
+    background-color: #8fadf4;
+    color: #ffffff;
+}
+
+.search-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 25rem;
+    overflow: hidden;
+    background-color: #d8e2ee;
+}
+
+.hero .hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero .hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    z-index: 2;
+    color: #ffffff;
+    text-align: left;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #495867;
+}
+
+/* Legacy Section */
+.legacy-section {
+    padding: 2rem 0;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.legacy-section h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #495867;
+}
+
+.legacy-section p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.legacy-section input.form-control,
+.legacy-section select.form-select {
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+}
+
+.legacy-section button {
+    font-weight: 600;
+    background-color: #d8e2ee;
+    color: #495867;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.legacy-section button:hover {
+    background-color: #8fadf4;
+    color: #ffffff;
+}
+
+/* Legacy Cards */
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+
+.card img {
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #495867;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.card a {
+    color: #8fadf4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: #3d93fd;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #d8e2ee;
+    color: #000000;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
+
+.footer-text a {
+    color: #495867;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #3d93fd;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        height: 20rem;
+    }
+
+    .hero .hero-content {
+        bottom: 5%;
+        left: 5%;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .legacy-section .row {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
